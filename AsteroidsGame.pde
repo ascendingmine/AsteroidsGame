@@ -34,7 +34,6 @@ public void draw() {
       if (t < 20) {   
         rock.remove(rock.get(i));
         pew.remove(pew.get(k));
-        rock.add(i, new asteroid());
         break;
       }
     }
